@@ -7,13 +7,10 @@ import time
 
 URL = "https://de.indeed.com/Jobs?q=python&l=53639&radius=25"
 
-#conducting a request of the stated URL above:
 page = requests.get(URL)
 
-#specifying a desired format of "page" using the html parser - this allows python to read the various components of the page, rather than treating it as one long string.
 soup = BeautifulSoup(page.text, "html.parser")
 
-#printing soup in a more structured tree format that makes for easier reading
 print(soup.prettify())
 
 def extract_job_title_from_result(soup):
@@ -60,7 +57,7 @@ def extract_job_title_from_result(soup):
 
                                                 #############################################
 
-                                                #scraping code:
+                                                #scrpng
 
                                                 for city in city_set:
                                                     for start in range(0, max_results_per_city, 10):
