@@ -1,5 +1,5 @@
 # webscr4jobs
 
-In an effort to get a new job as a coder, i created this tool to find open job positions in my area that suit my skillset.
+A tool i hacked together to gather job listing and get the most important informations, like location, requirements and job description. That way i safe time looking for open positions, and just check the constantly updated list on my phone.
 
-As a reference i used some articles on medium.com and the official documentation!
+I used online references for a tool like this on medium and the official documentation to create this program.
